@@ -20,7 +20,6 @@ class SimplexMethod:
             b_eq: 1D array of equality constraint values.
             bounds: List of variable bounds (min, max) for each variable.
             method: Method to use ('simplex').
-
         Returns:
             A dict containing the solution, status, message, and other information.
         """
